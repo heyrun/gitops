@@ -1,0 +1,7 @@
+kustomize.toolkit.fluxcd.io/v1
+kind: Kustomization
+metadata:
+  name: apps
+  namespace: flux-system
+path: ../apps
+
