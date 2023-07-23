@@ -23,6 +23,6 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: arc
-        namespace: flux-system
+        namespace: default
   test:
     enable: true # run tests on upgrades
