@@ -18,7 +18,7 @@ spec:
   interval: 60m
   chart:
     spec:
-      chart: actions-runner-controller/actions-runner-controller
+      chart: actions-runner-controller
       interval: 5m # scan the Helm repository every five minutes
       sourceRef:
         kind: HelmRepository
